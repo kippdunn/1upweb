@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "bauhaus";
+  src: url("../font/bauhaus-93_6274-webfont.ttf");
+}
+@font-face {
+  font-family: "typeWriter";
+  src: url("../Typewriter.ttf");
+}
+
+
+#main-title{
+  font-family: bauhaus;
+  font-size: 100px;
+  text-align: center;
+}
+
+#scroll-container a{
+  font-family: typeWriter;
+}
+#video-container a{
+  font-family: typeWriter;
+}
+
+#menu-container a{
+  font-family: typeWriter;
+}
+#timer{
+  font-family: typeWriter;
+}
+footer{
+  margin-top: 30px;
+  font-family: typeWriter;
+}

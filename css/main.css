@@ -1,0 +1,102 @@
+#logo-container{
+  max-width:240px;
+  margin:auto;
+}
+#menu-container{
+  max-width: 500px;
+}
+
+
+#scroll-container{
+  margin-top: 20px;
+  max-width: 800px;
+}
+
+#video-container{
+  max-width: 900px;
+  margin-top: 10px;
+}
+
+#logo-container a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+#menu-container a{
+  text-decoration: underline;
+  color: black;
+  font-size: 18px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#menu-container a:hover{
+  background-color: black;
+  color: white;
+}
+
+#video-container img{
+  width: 200px;
+}
+
+
+
+#main-title{
+  font-family: bauhaus;
+  font-size: 100px;
+  text-align: center;
+}
+#timer{
+  font-family: typeWriter;
+  font-size: 20px;
+  text-align: center;
+}
+
+div.scrollmenu {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+
+.vertical-menu {
+    /* width: 500px;  */
+    /* Set a width if you like */
+}
+
+.vertical-menu a {
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.vertical-menu {
+    height: 800px;
+    overflow-y: auto;
+}

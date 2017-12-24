@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "bauhaus";
+  src: url("../font/bauhaus-93_6274-webfont.ttf");
+}
+@font-face {
+  font-family: "typeWriter";
+  src: url("../Typewriter.ttf");
+}
+
+
+#logo-container{
+  max-width:240px;
+  margin:auto;
+}
+
+#logo-container a{
+  text-decoration: none;
+  color: black;
+}
+
+#timer{
+  font-family: typeWriter;
+  font-size: 20px;
+  text-align: center;
+}
+#menu-container{
+  max-width: 500px;
+}
+#menu-container a{
+  text-decoration: underline;
+  color: black;
+  font-size: 18px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#menu-container a:hover{
+  background-color: black;
+  color: white;
+}
+
+
+#search-container{
+  max-width: 400px;
+  margin:auto;
+}
+
+#search-container input{
+  font-family: typeWriter;
+}
+
+#search-bar{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#video-container img{
+  width: 200px;
+}
+
+#video-container{
+  max-width: 900px;
+  margin-top: 10px;
+}
+
+
+
+
+.vertical-menu {
+    /* width: 500px;  */
+    /* Set a width if you like */
+}
+
+.vertical-menu a {
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.vertical-menu {
+    height: 800px;
+    overflow-y: auto;
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
